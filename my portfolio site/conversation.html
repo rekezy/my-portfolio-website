@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversation</title>
+ 
+</head>
+<body>
+
+    <style>
+        *{
+            padding: 0;
+          margin: 0;  
+        }
+        .top{
+            width: 100%;
+            height: 300px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            *background-color: #141c3a;
+        }
+        .inner-top{
+            width: 80%;
+            height: 300px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+        }
+
+        .inner-top a{
+            width: 20%;
+            height: 100px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            *background-color: red;
+        }
+
+        .inner-top img{
+            width:100%;
+        }
+
+        .side-section{
+            width: 100%;
+            height: 200px;
+            *background-color: red;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            font-size: 40px;
+        }
+
+        .body{
+            width: 100%;
+            height: 700px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            *background-color: brown;
+        }
+        .inner-body{
+            width: 80%;
+            height: 600px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            *background-color: violet;
+            flex-direction: column;
+        }
+
+        h2{
+            width: 30%;
+            height: 90px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            font-size: 30px;
+            font-family: "eurostile", sans-serif;
+            
+        }
+
+        form{
+            width: 80%;
+            height: 600px;
+            color: white;
+            border-radius: 50px;
+            background-color:#141c3a;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            padding: 2vw 6vw;
+            
+        }
+        .form{
+            width: 80%;
+            height: 600px;
+            *background-color: red;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+         
+            
+
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            height: 20px;
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 16px;
+            border-radius: 10px;
+        }
+        input:hover{
+            border-color:  rgb(153, 35, 35);
+        }
+        .name{
+            width:50%;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .project-type{
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        label{
+           margin-right: 30px;
+        }
+        select{
+            width: 60%;
+            height: 40px;
+            border-radius: 10px;
+            font-family: "eurostile", sans-serif;
+            font-size: 15px;
+        }
+
+        .interest{
+            width: 50%;
+        }
+
+        .detail{
+            height: 200px;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        
+        .detail label{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+
+
+        .detail-input{
+            height: 100px;
+            width: 100%;
+            margin-right: 40px;
+        }
+
+        button{
+            width: 30%;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+            font-family: "eurostile", sans-serif;
+            cursor: pointer;
+
+        }
+
+
+        button:hover{
+            background-color: #141c3a;
+            color: white;
+        }
+
+
+        @media only screen and (max-width: 840px){
+
+            .side-section{
+                width: 100%;
+            }
+            .side-section h2{
+                width: 80%;
+                display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+
+            form{
+                width: 100%;
+            }
+
+            .project-type{
+                width: 100%;
+                display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+
+            .interest{
+                width: 100%;
+                display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+
+
+            .detail{
+                width: 100%;
+                margin-left: 50px;
+            }
+
+
+            .detail label{
+                width: 100%;
+                display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+
+
+            .detail-input{
+                width: 150px;
+                height: 50px;
+            }
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+    </style>
+
+
+
+
+
+    <div class="top">
+        <div class="inner-top">
+           <a  href="./index.html"> <img src="./img/my logo name.jpg" alt="Logo"></a>
+        </div>
+
+    </div>
+
+    <div class="side-section">
+
+        <h2>Want to discuss a startup collaboration? I'm most definitely game.</h2>
+    
+    </div>
+
+    <div class="body">
+        <div class="inner-body">
+
+            <form action="">
+                <div class="form">
+                    <div class="name">
+                        <label for="name">Name:</label> 
+                        <input type="Name" placeholder="Name"> <br>
+                    </div>
+                   
+                   
+                    <div class="name">
+                        <label for="email">Email:</label> 
+                        <input type="text" placeholder="Email"> <br>
+                     </div>
+              
+
+                     <div class="project-type">
+                         <label for=""> Project:</label> 
+                        <select name="project-box" id=""> 
+                            <option value="0" disabled selected hidden> </option> 
+                            <option value=""> Website</option>
+                            <option value="">Application</option>
+                            <option value="">Software</option>
+                            <option value="">Other</option>
+                        </select> <br>
+                    </div>
+
+                    <div class="interest">
+                
+                         <label for=""> Interest:</label> 
+                            <select name="project-box" id=""> 
+                                <option value="0" hidden> </option>
+                                <option value=""> Collaborator</option>
+                                <option value="">Investor</option>
+                                <option value="">Co-founder</option>
+                                <option value="">Other</option>
+                            </select> <br>
+                     </div>
+
+
+                     <div class="detail">
+                        <label for=""> Additional details:</label> <br>
+                        <input type="text" class="detail-input"> <br>
+                    </div>
+
+
+               <button>Submit</button>
+            </div>
+
+            </form>
+        
+        </div>
+    </div>
+
+
+  
+</body>
+</html>

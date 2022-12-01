@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../contact us file/index.html">
+</head>
+<body>
+
+  <div class="nav">
+        <div class="container">
+            <div class="logo">
+              <a href="index.html"><img src="./img/my logo name.jpg" alt=""></a>
+            </div>
+            <div class="nav-link">
+                <ul class="link">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                
+                  
+                    <li><a href="contact.html">Contact</a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+
+   
+<div class="contact">
+    <div class="inner-contact">
+        <h2> Say Hello !</h2>
+        <p>Do you have a question, an idea or product you need help with? Contact Us, will get back to you as soon as possible</p>
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <label for="text">Name:</label>
+                     <input type="text" placeholder="John Doe">
+                    <label for="text">Email:</label>
+                     <input type="email" placeholder="example@gmail.com">
+                </div>
+             <label for="text">Subject:</label>
+             <input type="text" placeholder="">
+             <label for="text">Message:</label>
+             <input type="text" placeholder="">
+             <button>Send</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="inner-footer">
+        <div class="main-footer">
+            <i class="fa-solid fa-user"></i>
+            <h2>Living, learning and leveling up  one day at a time.</h2>
+            <div class="icons">
+                <a href="https://instagram.com/rekezy_morgan?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram" ></i></a>
+                <a href="https://twitter.com/rekezy"><i class="fa-brands fa-twitter"></i></a>
+               <a href="https://github.com/rekezy"> <i class="fa-brands fa-github"></i></a>
+               <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+               <a href=""> <i class="fa-solid fa-envelope"></i></a>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+  
+
+
+
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100&display=swap');
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+     
+     body{
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+     
+    }
+
+
+    .contact{
+        width: 60%;
+        height: 800px;
+        *background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% );
+        justify-content: space-around;
+    display: flex;
+    align-items: center;
+    }
+
+.inner-contact{
+    width: 80%;
+        height: 600px;
+    background-color: #141c3a;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 	 #cccccc,
+                0 4px 8px 	 #cccccc;
+
+    margin-top: -170px;
+}
+.inner-contact h2{
+
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+.inner-contact p{
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+form{
+  width: 100%;
+  height: 400px;
+  justify-content: space-around;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+form .row{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+form .row .col{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+input{
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    width: 30%;
+    border-radius: 30px;
+    background-color: #141c3a;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    
+  
+}
+
+
+
+button:hover{
+    background-color: white;
+    color: #252934;
+    font-size: 20px;
+    border: 1px solid #252934;
+    
+}
+
+
+
+
+/*.contact{
+   height: 100px;
+    border-radius: 20px;
+    background-color:  #141c3a;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    position: absolute;
+
+   
+
+   
+}
+.inner-contact{
+    width: 100%;
+    height: 900px;
+    background-color: red;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.contact-h2{
+    width: 80%;
+    height: 200px;
+    *background-color: blue;
+    color: black;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-h2 h2{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    *color: #252934;
+    color: white;
+}
+
+.contact-h2 p{
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+/*.contact-form{
+    width: 80%;
+    height: 700px;
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+    margin-top: 30px;
+}
+
+form{
+    width: 80%;
+    height: 500px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+label{
+  
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+input{
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.message{
+    width: 60%;
+    height: 150px;
+}
+
+button{
+  padding: 20px;
+    border-radius: 30px;
+    background-color: #252934;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+
+button:hover{
+    background-color: white;
+    color: #252934;
+    font-size: 20px;
+    border: 1px solid #252934;
+    
+}
+
+.end{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+ 
+*/
+
+
+
+@media only screen and (max-width: 840px) {
+    
+.contact{
+    width: 100%;
+}
+
+    .inner-contact{
+        width: 80%;
+        height: 700px;
+       
+    }
+    
+    .inner-contact form{
+        width: 80%;
+   
+        
+
+    }
+    form{
+        width: 90%;
+    }
+    input {
+      width: 60%;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .contact{
+        margin-top: 10px;
+    }
+    
+    .contact-form{
+        width: 100%;
+        align-items:center;
+    }
+    form{
+        width: 100%;
+    }
+
+    .contact-h2 h2{
+        font-size: 20px;
+    }
+
+    .contact-h2 p{
+        font-size: 15px;
+        width: 100%;
+    }
+    input {
+        padding: 10px;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .contact{
+        width: 80%;
+        transform: translate(-50% -50%);
+        height: 800px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contact-form{
+        width: 100%;
+        align-items:center;
+    }
+    form{
+        width: 90%;
+    }
+    label{
+        display: flex;
+    }
+    input {
+        padding: 10px;
+    }
+    .contact-h2 h2{
+        font-size: 20px;
+    }
+
+    .contact-h2 p{
+        font-size: 15px;
+        width: 100%;
+    }
+    form{
+        font-size: 10px;
+     align-items: center;
+     justify-content: center;
+    }
+
+}
+
+ 
+@media only screen and (max-width: 300px){
+
+
+    input {
+        padding: 10px;
+    }
+}
+
+
+
+
+    </style>
+</body>
+</html>

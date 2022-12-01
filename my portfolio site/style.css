@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+ 
+
+}
+.container{
+    width: 100%;
+    height: 100px;
+   background-color: white;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 10px;
+   
+ 
+}
+.logo{
+    width: 20%;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+  
+
+
+}
+.logo a{
+    width:100%;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+}
+.logo img{
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+    *background-color: red;
+    z-index: 1;
+}
+
+.nav-link{
+    width: 50%;
+    height: 100px;
+   align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.link{
+    width: 100%;
+    height: 100px;
+   align-items: center;
+    justify-content: space-around;
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.link li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.link li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+.hero-img {
+  background-image: url(./img/hero.jpg);
+  position: relative;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    margin-bottom: 15px;
+    background-color: blue;
+}
+.hero-shadow{
+    position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.85);
+			z-index: -10;
+}
+.hero-text{
+    display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			padding: 10px;
+			z-index: 2;
+    
+}
+
+.hero-text h1{
+    font-size: 10vw;
+				line-height: 8.5vw;
+				text-align: center;
+                color: white;
+                
+}
+.highlighted{
+    color: #ccc;
+}
+
+.highlighted:hover{
+    color: red;
+}
+
+
+.arrow{
+    width: 50%;
+    margin-top: 250px;
+}
+
+.arrow:hover{
+    color:red;
+}
+
+
+.bi-arrow-down {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 150px;
+    font-size: 120px;
+    color: white;
+    z-index: 3;
+}
+
+.inner-portfolio{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-portfolio .head{
+ width: 40%;
+ height: 100px;
+border-radius: 10px;
+ margin-top: 50px;
+ font-family: 'Poppins', sans-serif;
+ background-color: #141c3a;
+ color: white;
+ text-align: center;
+ justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.inner-portfolio .head h2{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+.projects{
+    width: 100%;
+    height: 900px;
+   *background-color: #141c3a;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+.inner-projects{
+    width: 100%;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+
+.main-projects{
+    width: 80%;
+    height: 700px;
+    *background-color: #141c3a;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main{
+    width: 330px;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border: 1px solid #141c3a;
+    border-radius: 10px;
+    flex-direction: column;
+   
+    margin-bottom: 15px;
+}
+
+
+.main img{
+    width: 40%;
+    margin-top: 30px;
+}
+.main p{
+    width: 80%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.trustplus{
+   width: 270px;
+}
+.trustplus  img{
+    margin-left: 20px;
+}
+.trustplus .trustplus-span{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 5000;
+
+}
+
+
+.main-p{
+width: 50%;
+height: 30px;
+border-radius:10px ;
+color: white;
+background-color: #141c3a;
+text-decoration: none;
+justify-content: space-around;
+    align-items: center;
+    display: flex;
+   
+}
+.main-p p{
+font-size: 17px;
+}
+
+
+
+.main-p:hover{
+background-color: blue;
+}
+.main .a-link{
+    width: 50%;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #141c3a;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+.main .a-link:hover{
+    background-color: blue;
+}
+
+
+.shipable{
+    text-decoration: none;
+    background-color: #141c3a;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+}
+.shipable:hover{
+    background-color: blue;
+}
+.shipable p{
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+
+.body{
+    width:100%;
+    height: 500px;
+  
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.inner-body{
+    width:100%;
+    height: 400px;
+    *background-color: rgb(217, 232, 181);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.up-body{
+    width: 60%;
+    height: 100px;
+    background-color: #141c3a;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.up-body h2{
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.down-body{
+    width: 100%;
+    height: 400px;
+    *background-color: #a6b4e9;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+   
+}
+
+.down-imgs {
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    *background-color: darkgreen;
+    flex-wrap: wrap;
+   
+   
+}
+
+.down-imgs .content{
+   width: 250px;
+   height: 50px;
+   background-color: yellow;
+   margin-bottom: 90px;
+  
+  
+
+}
+
+.down-imgs .content figure{
+   
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  
+   
+}
+
+.down-imgs .content figure img{
+    width: 100%;
+    margin-bottom: 30px;
+  
+   
+}
+
+.section-two{
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  
+
+}
+
+.section-two .first-section{
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.section-two .first-section img{
+    width: 70%;
+}
+
+
+.collaboration{
+    width: 100%;
+    height: 400px;
+    *background-color: #141c3a;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+.inner-collabo{
+    color: white;
+    height: 300px;
+    width: 80%;
+    background-color:#141c3a;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.first-p{
+    height: 30px;
+    font-size: 20px;
+    font-family: "eurostile", sans-serif;
+    margin-top: 30px;
+}
+.second-p{
+    font-size: 20px;
+    font-family: "eurostile", sans-serif;
+    margin-bottom: 60px;
+}
+
+
+.p-link{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    width: 20%;
+    height: 40px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-family: "eurostile", sans-serif;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: #141c3a;
+
+}
+
+.p-link:hover{
+    background-color: #141c3a;
+    color: white;
+}
+
+.footer{
+    height: 600px;
+    width: 100%;
+    *background-color: blue;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.inner-footer{
+    height: 400px;
+    width: 100%;
+
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.main-footer{
+    height: 400px;
+    width: 80%;
+    background-color: #141c3a;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.main-footer .fa-user{
+    font-size: 60px;
+    margin-top: 70px;
+    color: orange;
+    box-shadow: 0 4px 3px 	 #cccccc,
+                 0 4px 3px 	 #cccccc;
+
+}
+
+.main-footer h2{
+   width: 80%;
+    margin-top: -20px;
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+.main-footer .icons{
+   width: 40%;
+ align-items: center;
+ justify-content: space-around;
+ display: flex;
+
+}
+
+.main-footer .icons .fa-instagram{
+    font-size: 30px;
+    color:  white;
+    box-shadow: 0 2px 3px 	 #cccccc,
+                 0 2px 3px 	 #cccccc;
+}
+.main-footer .icons .fa-instagram:hover{
+    font-size: 30px;
+    color:  black;
+}
+.main-footer .icons .fa-twitter{
+    font-size: 30px;
+    color: white;
+        box-shadow: 0 2px 3px 	 #cccccc,
+                    0 2px 3px 	 #cccccc;
+}
+
+.main-footer .icons .fa-twitter:hover{
+    font-size: 30px;
+    color:  black;
+}
+
+
+.main-footer .icons .fa-github{
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 2px 3px 	 #cccccc,
+                 0 2px 3px 	 #cccccc;
+}
+.main-footer .icons .fa-github:hover{
+    font-size: 30px;
+    color:  black;
+}
+
+
+.main-footer .icons .fa-linkedin{
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 2px 3px 	 #cccccc,
+                 0 2px 3px 	 #cccccc;
+   
+
+}
+
+.main-footer .icons .fa-linkedin:hover{
+    font-size: 30px;
+    color:  black;
+}
+
+
+
+
+.main-footer .icons .fa-envelope{
+    font-size: 30px;
+    box-shadow: 0 2px 3px 	 #cccccc,
+                0 2px 3px 	 #cccccc;
+    
+    color: white;
+}
+
+.main-footer .icons .fa-envelope:hover {
+    font-size: 30px;
+    color:  black;
+
+}
+
+
